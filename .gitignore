@@ -1,3 +1,5 @@
 /.idea
 /data
 .ipynb_checkpoints
+/scrapy/recent_movie/recent_movie/spiders/*.pyc
+*.pyc
