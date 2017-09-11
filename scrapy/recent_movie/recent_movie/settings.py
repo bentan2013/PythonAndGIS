@@ -13,7 +13,6 @@ BOT_NAME = 'recent_movie'
 
 SPIDER_MODULES = ['recent_movie.spiders']
 NEWSPIDER_MODULE = 'recent_movie.spiders'
-#ITEM_PIPELINES = {'recent_movie.pipelines.RecentMoviePipeline': 300}
 
 ITEM_PIPELINES = {
     'recent_movie.pipelines.RecentMoviePipeline': 300

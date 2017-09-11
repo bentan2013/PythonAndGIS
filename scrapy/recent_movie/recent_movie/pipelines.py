@@ -24,6 +24,5 @@ class RecentMoviePipeline(object):
 
     def process_item(self, item, spider):
         name = item['movie_name'][0].encode('utf8')
-        #with open('./name.txt', 'a+') as file:
         self.f.write(name + "\n")
         return item
