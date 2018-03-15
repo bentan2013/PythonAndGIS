@@ -55,7 +55,7 @@
 <tr>
 <td class="left"><a href="http://blog.csdn.net/uninterrupted/article/details/48754623">我的python学习笔记(2) - GDAL与Python</a></td>
 <td class="left">python中GDAL的安装</td>
-<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/gdal/raster\_operation.py">raster<sub>operation</sub>.py</a></td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/gdal/raster_operation.py">raster_operation.py</a></td>
 </tr>
 
 <tr>
@@ -67,13 +67,13 @@
 <tr>
 <td class="left"><a href="http://blog.csdn.net/uninterrupted/article/details/77606583">我的python学习笔记(4) pandas 之 Series, DataFrame</a></td>
 <td class="left">pandas简介</td>
-<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/pandas/pandas\_example.ipynb">pandas<sub>example</sub>.ipynb</a></td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/pandas/pandas_example.ipynb">pandas_example.ipynb</a></td>
 </tr>
 
 <tr>
 <td class="left"><a href="http://blog.csdn.net/uninterrupted/article/details/77884656">我的Python学习笔记（5） ArcGIS API for Python</a></td>
 <td class="left">ArcGIS API for Python简介</td>
-<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/arcgis-python-api/renting/renting.ipynb">renting.ipynb</a>, <a href="https://github.com/bentan2013/PythonAndGIS/blob/master/esri/show\_map.ipynb">show<sub>map</sub>.ipynb</a></td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/arcgis-python-api/renting/renting.ipynb">renting.ipynb</a>, <a href="https://github.com/bentan2013/PythonAndGIS/blob/master/esri/show_map.ipynb">show_map.ipynb</a></td>
 </tr>
 
 <tr>
@@ -109,7 +109,7 @@
 <tr>
 <td class="left"><a href="http://blog.csdn.net/uninterrupted/article/details/79538986">Python中的并发编程(1):起步</a></td>
 <td class="left">简介并发编程的概念</td>
-<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/concurrency/hello\_concurrency.py">hello<sub>concurrency</sub>.py</a></td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/concurrency/hello_concurrency.py">hello_concurrency.py</a></td>
 </tr>
 
 <tr>
