@@ -3,3 +3,4 @@
 .ipynb_checkpoints
 /scrapy/recent_movie/recent_movie/spiders/*.pyc
 *.pyc
+arcgis-python-api/renting/.idea/
