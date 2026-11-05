@@ -1,10 +1,6 @@
 
 import pandas as pd
-from geopy.geocoders import Nominatim
 import geocoder
-
-# create geocoder object
-geolocator = Nominatim(user_agent="my-app")
 
 # list of park names in Los Angeles
 parknames = [
@@ -46,18 +42,16 @@ def get_lon_lat(address):
     if "lng" in rlt:
         return rlt["lng"], rlt["lat"]
     else:
-        return 0.0, 0.0
+        return None, None
 
 # loop through park names to get latitude and longitude for each
 for parkname in parknames:
     address = parkname + ", Los Angeles, CA"
     lon, lat = get_lon_lat(address)
-    #location = geolocator.geocode(address)
-    #if location:
-    #    addresses.append(parkname)  
-    #    latitudes.append(location.latitude)
-    #    longitudes.append(location.longitude)
-    addresses.append(parkname)  
+    if lon is None:
+        print("geocode failed: {}".format(address))
+        continue
+    addresses.append(parkname)
     latitudes.append(lat)
     longitudes.append(lon)
 

@@ -113,6 +113,48 @@
 </tr>
 
 <tr>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/tree/master/ChatGPTArcGISEarth">ChatGPT + ArcGIS Earth</a>（<a href="https://www.bilibili.com/video/BV11Y411k7R5">B站视频</a>）</td>
+<td class="left">用ChatGPT生成代码，地理编码后通过Automation API在ArcGIS Earth中展示</td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/ChatGPTArcGISEarth/show_park.py">show_park.py</a></td>
+</tr>
+
+<tr>
+<td class="left">并发编程：多线程</td>
+<td class="left">两个线程同时修改全局变量（竞争条件示例）</td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/concurrency/02_task_scheduler.py">02_task_scheduler.py</a></td>
+</tr>
+
+<tr>
+<td class="left">pyecharts</td>
+<td class="left">用pyecharts绘制地图</td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/echarts/echarts-map.ipynb">echarts-map.ipynb</a></td>
+</tr>
+
+<tr>
+<td class="left">ArcGIS API for Python: WebScene</td>
+<td class="left">获取Portal Item并查看WebScene属性</td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/arcgis-python-api/webscene.ipynb">webscene.ipynb</a></td>
+</tr>
+
+<tr>
+<td class="left">matplotlib</td>
+<td class="left">用imshow绘制春节值班/休假表</td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/plot/spring_festival_holiday.py">spring_festival_holiday.py</a></td>
+</tr>
+
+<tr>
+<td class="left">pygame</td>
+<td class="left">数字雨效果</td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/blob/master/pygame/digit-rain.py">digit-rain.py</a></td>
+</tr>
+
+<tr>
+<td class="left">杂项</td>
+<td class="left">exifread读取照片GPS信息、requests测试</td>
+<td class="left"><a href="https://github.com/bentan2013/PythonAndGIS/tree/master/temp">temp</a></td>
+</tr>
+
+<tr>
 <td class="left">&#xa0;</td>
 <td class="left">&#xa0;</td>
 <td class="left">&#xa0;</td>
