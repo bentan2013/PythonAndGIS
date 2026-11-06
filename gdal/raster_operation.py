@@ -1,10 +1,9 @@
-from osgeo import gdal
-import osr
+from osgeo import gdal, osr
 import numpy as np
 
 def get_pixel_pos(lon, lat, E, N,  wres, hres):
-    x = int(lon - E) / wres
-    y = int(lat - N) / hres
+    x = (lon - E) / wres
+    y = (lat - N) / hres
     return int(x), int(y)
 
 def create_geotransform(origin_lon, origin_lat, res):
@@ -78,11 +77,7 @@ def extent_clip(src_path, dst_path, N, S, E, W):
     out.SetGeoTransform(ngt)
     na = np.zeros((ySize, xSize))
 
-    for x in range(ltx, rbx):
-        nx = x - ltx
-        for y in range(lty, rby):
-            ny = y - lty
-            na[ny][nx] = arr[y][x]
+    na[:, :] = arr[lty:lty + ySize, ltx:ltx + xSize]
 
     outband = out.GetRasterBand(1)
     outband.WriteArray(na, 0, 0)

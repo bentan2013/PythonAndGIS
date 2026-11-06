@@ -24,7 +24,7 @@ def getGPS(filepath):
     '''
     returns gps data if present other wise returns empty dictionary
     '''
-    with open(filepath, 'r') as f:
+    with open(filepath, 'rb') as f:
         tags = ef.process_file(f)
         latitude = tags.get('GPS GPSLatitude')
         latitude_ref = tags.get('GPS GPSLatitudeRef')
@@ -32,20 +32,20 @@ def getGPS(filepath):
         longitude_ref = tags.get('GPS GPSLongitudeRef')
         if latitude:
             lat_value = _convert_to_degress(latitude)
-            if latitude_ref.values != 'N':
+            if str(latitude_ref.values) != 'N':
                 lat_value = -lat_value
         else:
             return {}
         if longitude:
             lon_value = _convert_to_degress(longitude)
-            if longitude_ref.values != 'E':
+            if str(longitude_ref.values) != 'E':
                 lon_value = -lon_value
         else:
             return {}
         return {'latitude': lat_value, 'longitude': lon_value}
-    return {}
 
 
-file_path = 'd:/IMG_2936.JPG'
-gps = getGPS(file_path)
-print gps
+if __name__ == '__main__':
+    file_path = 'd:/IMG_2936.JPG'
+    gps = getGPS(file_path)
+    print(gps)
